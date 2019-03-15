@@ -28,6 +28,7 @@ export const pageQuery = graphql`
     allMarkdownRemark {
       edges {
         node {
+          id
           frontmatter {
             path
             title
